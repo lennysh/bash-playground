@@ -1,0 +1,15 @@
+# Local / private
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*credential*
+*.local
+
+# Editor / OS
+.DS_Store
+*~
+*.swp
+.idea/
+.vscode/
