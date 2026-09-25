@@ -15,11 +15,12 @@ random_scripts/                 # Standalone scripts
 ```bash
 cd random_scripts
 ./check_podman_image.sh localhost/container-image:local
+./check_podman_stats.sh
 ```
 
-Script index: **[random_scripts/README.md](random_scripts/README.md)**. Per-script docs live next to each `.sh` (e.g. [check_podman_image.md](random_scripts/check_podman_image.md)).
+Script index: **[random_scripts/README.md](random_scripts/README.md)**. Per-script docs live next to each `.sh` (e.g. [check_podman_image.md](random_scripts/check_podman_image.md), [check_podman_stats.md](random_scripts/check_podman_stats.md)).
 
 ## Requirements
 
 - Bash
-- Per-script tools (e.g. Podman for `check_podman_image.sh`)
+- Per-script tools (e.g. Podman for the `check_podman_*.sh` scripts)

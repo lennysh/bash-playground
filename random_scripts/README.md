@@ -5,6 +5,7 @@ Small standalone Bash utilities. Each script has its own markdown file beside it
 | Script | Docs |
 |--------|------|
 | [`check_podman_image.sh`](check_podman_image.sh) | [check_podman_image.md](check_podman_image.md) |
+| [`check_podman_stats.sh`](check_podman_stats.sh) | [check_podman_stats.md](check_podman_stats.md) |
 
 ## Adding a script
 
